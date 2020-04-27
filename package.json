@@ -1,0 +1,23 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pm2-dev start app.js",
+    "dev-ecosystem": "pm2-dev start ecosystem.config.js",
+    "prod": "pm2 start app.js",
+    "prod-ecosystem": "pm2 start start ecosystem.config.js",
+    "prod-runtime": "pm2-runtime start app.js",
+    "prod-runtime-ecosystem": "pm2-runtime start ecosystem.config.js"
+  },
+  "author": "evgeny",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9"
+  }
+}

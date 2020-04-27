@@ -1,0 +1,4 @@
+{
+    "port": 3000,
+    "mongoURI": "mongodb://app_owner:appPassword@mongo:27017/app_db"
+}
