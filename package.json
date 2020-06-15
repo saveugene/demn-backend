@@ -1,10 +1,9 @@
 {
-  "name": "express-app",
+  "name": "demn-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "pm2-dev start app.js",
     "dev-ecosystem": "pm2-dev start ecosystem.config.js",
     "prod": "pm2 start app.js",
@@ -12,8 +11,8 @@
     "prod-runtime": "pm2-runtime start app.js",
     "prod-runtime-ecosystem": "pm2-runtime start ecosystem.config.js"
   },
-  "author": "evgeny",
-  "license": "ISC",
+  "author": "Evgeny <save.this.is@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "config": "^3.3.1",
